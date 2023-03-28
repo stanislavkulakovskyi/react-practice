@@ -210,7 +210,6 @@ export const App = () => {
 
                     <a
                       href="#/"
-                      onClick={setSortBy('')}
                     >
                       <span className="icon">
                         <i data-cy="SortIcon" className="fas fa-sort-up" />
