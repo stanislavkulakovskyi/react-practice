@@ -50,6 +50,7 @@ export const App = () => {
               <a
                 data-cy="FilterAllUsers"
                 href="#/"
+                // eslint-disable-next-line react/no-unknown-property
                 classNames={classNames({
                   'is-active': filterBy === 0,
                 })}
@@ -67,6 +68,7 @@ export const App = () => {
                 <a
                   data-cy="FilterUser"
                   href="#/"
+                  // eslint-disable-next-line react/no-unknown-property
                   classNames={classNames({
                     'is-active': filterBy === user.id,
                   })}
